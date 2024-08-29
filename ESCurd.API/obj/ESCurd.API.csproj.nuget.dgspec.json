@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\EDINSON\\APUDATA\\ElasticSearch\\ESCurd\\ESCurd.API\\ESCurd.API.csproj": {}
+  },
+  "projects": {
+    "D:\\EDINSON\\APUDATA\\ElasticSearch\\ESCurd\\ESCurd.API\\ESCurd.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\EDINSON\\APUDATA\\ElasticSearch\\ESCurd\\ESCurd.API\\ESCurd.API.csproj",
+        "projectName": "ESCurd.API",
+        "projectPath": "D:\\EDINSON\\APUDATA\\ElasticSearch\\ESCurd\\ESCurd.API\\ESCurd.API.csproj",
+        "packagesPath": "C:\\Users\\eddy_\\.nuget\\packages\\",
+        "outputPath": "D:\\EDINSON\\APUDATA\\ElasticSearch\\ESCurd\\ESCurd.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eddy_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vstsbncr-backoffice.pkgs.visualstudio.com/_packaging/Comunes/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Elasticsearch.Net": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
